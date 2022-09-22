@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ImageUp">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="13" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="580" height="584"/>
+    </constraints>
+    <properties>
+      <background color="-3211376"/>
+    </properties>
+    <border type="none" title-position="5"/>
+    <children>
+      <component id="89be5" class="javax.swing.JLabel" binding="label">
+        <constraints>
+          <grid row="0" column="1" row-span="13" col-span="1" vsize-policy="7" hsize-policy="5" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="412" height="400"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6cfc6" class="javax.swing.JButton" binding="buttonFox">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3726"/>
+          <font name="Arial" size="14" style="1"/>
+          <text value="Лисичку!"/>
+        </properties>
+      </component>
+      <component id="75fdb" class="javax.swing.JButton" binding="buttonCat">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11822606"/>
+          <font name="Arial" size="14" style="1"/>
+          <text value="Котика!"/>
+        </properties>
+      </component>
+      <component id="938f1" class="javax.swing.JButton" binding="buttonDog">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1614849"/>
+          <font name="Arial" size="14" style="1"/>
+          <text value="Собачку!"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
