@@ -1,4 +1,4 @@
-
+package YandexMaps;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
