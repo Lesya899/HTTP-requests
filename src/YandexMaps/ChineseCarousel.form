@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="YandexMaps.ChineseCarousel">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1900648"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="7dee7" class="javax.swing.JLabel" binding="label">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="500" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e8111" class="javax.swing.JButton" binding="buttonBack">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1179589"/>
+          <focusPainted value="false"/>
+          <font name="Arial" size="14" style="1"/>
+          <text value="Назад"/>
+        </properties>
+      </component>
+      <component id="b475" class="javax.swing.JButton" binding="buttonForward">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1179589"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="false"/>
+          <font name="Arial" size="14" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Вперед"/>
+        </properties>
+      </component>
+      <component id="71d57" class="javax.swing.JLabel" binding="placeLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="16" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
