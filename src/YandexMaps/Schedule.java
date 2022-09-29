@@ -19,7 +19,7 @@ public class Schedule {
     public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine().replace(" ", "+"); //при вводе нескольких слов заменяем пробел на знак +
-        HttpRequest request = HttpRequest.newBuilder().uri(new URI("https://search-maps.yandex.ru/v1/?text=" + str + "&type=biz&lang=ru_RU&apikey=65851351-e6d0-4346-89b9-7a8a61c441b1")).GET().build(); //создаем запрос
+        HttpRequest request = HttpRequest.newBuilder().uri(new URI("https://search-maps.yandex.ru/v1/?text=" + str + "&type=biz&lang=ru_RU&apikey=00000000000")).GET().build(); //создаем запрос
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString()); //отправляем запрос и получаем ответ
         JSONObject json = new JSONObject(response.body()); //преобразуем ответ в объект JSON, JSONObject — это неупорядоченный набор пар ключ-значение
         JSONArray array = (JSONArray) json.get("features"); //получаем объект features и преобразуем его массив JSON
