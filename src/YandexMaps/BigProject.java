@@ -67,7 +67,7 @@ public class BigProject extends JFrame {
         buttonSearch.addActionListener(e -> {
             text = textField.getText().replace(" ", "+");
             try {
-                HttpRequest request = HttpRequest.newBuilder().uri(new URI("https://search-maps.yandex.ru/v1/?text=" + text + "&lang=ru_RU&apikey=65851351-e6d0-4346-89b9-7a8a61c441b1")).GET().build();
+                HttpRequest request = HttpRequest.newBuilder().uri(new URI("https://search-maps.yandex.ru/v1/?text=" + text + "&lang=ru_RU&apikey=000000000000")).GET().build();
                 HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString()); //отправляем запрос и получаем ответ
                 JSONObject json = new JSONObject(response.body()); //преобразуем ответ в объект JSON, JSONObject — это неупорядоченный набор пар ключ-значение
                 array = (JSONArray) json.get("features"); //получаем объект features и преобразуем его массив JSON
